@@ -1,0 +1,84 @@
+<!-- forms in the htm -->
+<html>
+    <head>
+        <title> Forms in html</title>
+    </head>
+    <h1>Registration Forms</h1>
+    <body>
+        <fieldset>
+            <legend>Register here</legend>
+            <b>im going to join in 1ok coders and i wanna learn subject and gone became a developer &#128187</b>
+            <form action="./day8.txt">
+                <pre>
+                <div style="background-color: aqua;">
+                <label for="fullName">Enter Name:---</label>
+                <input type="text" placeholder="Enter name here" id="fullName" pattern="[A-Za-z0-9]{3,}" 
+                required/>
+                </div>
+                
+                <div style="background-color:pink">
+                <label for="pswd">Enter passward:---</label>
+                <input type="passward" placeholder="Enter passward here" id="pswd" pattern="[A-Za-z!@%&*$0-9]{8,}" required/>
+                </div>
+
+                <div style="background-color:yellow">
+                <label for="mail">Enter Email:---</label>
+                <input type="email" placeholder="Enter email here" id="mail" patterns="[a-z0-9._]+@[a-z]{2-4}"   required/>
+                </div>
+                
+                <div style="background-color:blue">
+                <label for="Apetite">choose your food:---</label>
+                <select name="food" id="Apetite" style="width:170px;">
+                    <option value="initial">select dish</option>
+                    <option value="Biryani">Biryani</option>
+                    <option value="Shakes">Shakes</option>
+                    <option value="Tea">Tea</option>
+                    <option>Ice cream</option>
+                   
+                </select>
+                </div>
+
+                
+                <div style="background-color:red">
+                 <select>
+                 <datalist >
+                    <option vale="8:30-10:00">8:30-10:00</option>
+                    <option vale="10:30-12:00">10:30-12:00</option>
+                    <option vale="8:30-10:00">12:30-2:00</option>
+
+                </datalist>
+                </select>
+                </div>
+                
+
+                <div style="background-color:chocolate">
+                <input type="file" />
+                </div>
+        
+                <div style="background-color:green">
+                Male<input type="radio"/>
+                Female<input type="radio"/>
+                Others<input type="radio"/>
+                </div>
+                <div style="background-color:orange">
+                <input type="checkbox"> I agree to <a href="">terms</a> and <a href="">conditions</a>
+                </div>
+
+                <div style="background-color:violet">
+               <textarea rows="4" cols="100" readonly>
+                srikanth
+                2-18
+                502249
+
+               </textarea>
+
+               </div>
+
+            
+            <button type="submit">submit</button>
+            </pre>
+            </form>
+        </fieldset>
+        
+    </body>
+</html>
